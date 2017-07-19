@@ -15,7 +15,6 @@ import android.support.annotation.RequiresApi;
 import android.support.design.widget.Snackbar;
 import android.support.media.ExifInterface;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.content.res.ResourcesCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -28,8 +27,8 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import us.koller.cameraroll.R;
-import us.koller.cameraroll.themes.Theme;
 import us.koller.cameraroll.data.Settings;
+import us.koller.cameraroll.themes.Theme;
 
 public class Util {
 
@@ -96,9 +95,6 @@ public class Util {
             if (view instanceof TextView) {
                 TextView textView = (TextView) view;
                 if (textView.getText().equals(toolbar.getTitle())) {
-                    Typeface typeface = ResourcesCompat.getFont(toolbar.getContext(),
-                            R.font.roboto_mono_regular);
-                    textView.setTypeface(typeface);
                     return textView;
                 }
             }

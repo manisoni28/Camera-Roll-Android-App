@@ -29,6 +29,6 @@
             android:ellipsize="end"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:fontFamily="sans-serif-medium" />
+            />
     </LinearLayout>
 </us.koller.cameraroll.ui.widget.SquareCardView>

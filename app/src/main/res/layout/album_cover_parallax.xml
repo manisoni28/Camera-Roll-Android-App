@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:ellipsize="end"
-                android:fontFamily="sans-serif-medium"
+
                 android:maxLines="1"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
@@ -42,7 +42,7 @@
                 android:id="@+id/count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_mono_regular"
+
                 android:textColor="@color/white_translucent1"
                 android:textSize="12sp" />
         </LinearLayout>

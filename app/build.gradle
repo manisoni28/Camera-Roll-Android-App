@@ -60,4 +60,6 @@ dependencies {
     compile 'com.github.pluscubed:recycler-fast-scroll:0.3.2@aar'
 
     compile 'com.theartofdev.edmodo:android-image-cropper:2.4.7'
+
+    compile 'com.yarolegovich:discrete-scrollview:1.2.0'
 }

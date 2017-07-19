@@ -37,7 +37,7 @@
             android:layout_marginBottom="5dp"
             android:alpha="0.54"
             android:ellipsize="end"
-            android:fontFamily="sans-serif-medium"
+
             android:maxLines="1"
             android:tag="@string/theme_text_color_primary"
             android:textSize="16sp" />
@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:alpha="0.54"
-            android:fontFamily="@font/roboto_mono_regular"
+
             android:tag="@string/theme_text_color_primary"
             android:text="@string/excluded"
             android:textSize="12sp" />
